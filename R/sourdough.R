@@ -1,4 +1,4 @@
-#' artine Sourdough
+#' Tartine Sourdough
 #'
 #' Generate ingredient lists for Tartine Country Sourdough and Tartine Sourdough
 #' Baguettes.

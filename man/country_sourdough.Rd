@@ -3,7 +3,7 @@
 \name{country_sourdough}
 \alias{country_sourdough}
 \alias{sourdough_baguettes}
-\title{artine Sourdough}
+\title{Tartine Sourdough}
 \usage{
 country_sourdough(loaves = 2, base_loaves = 2)
 
