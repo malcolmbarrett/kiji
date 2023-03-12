@@ -2,12 +2,12 @@
 % Please edit documentation in R/sourdough.R
 \name{country_sourdough}
 \alias{country_sourdough}
-\alias{sourdough_baguette_dough}
+\alias{baguette_sourdough}
 \title{Tartine Sourdough}
 \usage{
 country_sourdough(loaves = 2, base_loaves = 2)
 
-sourdough_baguette_dough(baguettes = 8, base_baguettes = 8)
+baguette_sourdough(baguettes = 8, base_baguettes = 8)
 }
 \arguments{
 \item{loaves}{Number of loaves of Tartine Country Sourdough}

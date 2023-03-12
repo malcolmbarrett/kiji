@@ -31,7 +31,7 @@ country_sourdough <- function(loaves = 2, base_loaves = 2) {
 
 #' @rdname country_sourdough
 #' @export
-sourdough_baguette_dough <- function(baguettes = 8, base_baguettes = 8) {
+baguette_sourdough <- function(baguettes = 8, base_baguettes = 8) {
   # tartine sourdough baguettes
   tibble::tribble(
     ~ingredient, ~ weight, ~ unit, ~ component,
