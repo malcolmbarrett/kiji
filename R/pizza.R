@@ -17,6 +17,5 @@ new_york_pizza_dough <- function(pizzas = 2) {
     "all-purpose flour", 345, "grams", "dough",
     "sea salt", 1, "tsp", "dough"
   ) |>
-    divide_numbers_by(2) |>
-    multiply_numbers_by(pizzas)
+    standardize_ingredients_to(2, pizzas)
 }
