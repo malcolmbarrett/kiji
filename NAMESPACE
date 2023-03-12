@@ -3,4 +3,4 @@
 export(calculate_bakers_percentage)
 export(country_sourdough)
 export(new_york_pizza_dough)
-export(sourdough_baguettes)
+export(sourdough_baguette_dough)
