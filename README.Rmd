@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# kiji
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of kiji is to calculate ingredients for various doughs that I like.
+
+## Installation
+
+You can install the development version of kiji from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("malcolmbarrett/kiji")
+```
+
+## Calculating ingredients
+
+```{r example}
+library(kiji)
+new_york_pizza_dough(pizzas = 4)
+```
+
+kiji also calculates baker's percentages.
+
+```{r cars}
+new_york_pizza_dough() |> 
+  calculate_bakers_percentage()
+```
+
