@@ -1,5 +1,5 @@
 Package: kiji
-Title: What the Package Does (One Line, Title Case)
+Title: Calculate dough ingredients
 Version: 0.0.0.9000
 Authors@R: 
     person("Malcolm", "Barrett", , "malcolmbarrett@gmail.com", role = c("aut", "cre"),
@@ -10,6 +10,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
+    stringr,
     tibble
 Suggests: 
     testthat (>= 3.0.0)
