@@ -36,11 +36,13 @@ new_york_pizza_dough(pizzas = 4)
 kiji also calculates baker’s percentages.
 
 ``` r
-new_york_pizza_dough() |> 
+country_sourdough() |> 
   calculate_bakers_percentage()
-#> # A tibble: 2 × 3
+#> # A tibble: 4 × 3
 #>   ingredient        weight bakers_percent
 #>   <chr>              <dbl>          <dbl>
-#> 1 all-purpose flour    345          1    
-#> 2 water                225          0.652
+#> 1 bread flour          950         0.864 
+#> 2 sea salt              20         0.0182
+#> 3 water                850         0.773 
+#> 4 whole-wheat flour    150         0.136
 ```

@@ -39,7 +39,7 @@ new_york_pizza_dough(pizzas = 4)
 kiji also calculates baker's percentages.
 
 ```{r cars}
-new_york_pizza_dough() |> 
+country_sourdough() |> 
   calculate_bakers_percentage()
 ```
 
